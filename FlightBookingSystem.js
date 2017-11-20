@@ -1,1 +1,1 @@
-db.getCollection('User').find({})
+db.getCollection('Flights').find({})
