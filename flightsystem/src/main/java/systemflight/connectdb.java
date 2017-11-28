@@ -23,7 +23,7 @@ import com.mongodb.ServerAddress;
 
 public class connectdb {
 	
-	public static void main( String args[] ) {  
+	public void connectdb(){  
 	      
 	      // Creating a Mongo client 
 	      MongoClient mongo = new MongoClient( "localhost" , 27017 ); 
