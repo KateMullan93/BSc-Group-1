@@ -1,0 +1,36 @@
+#container{margin: 0 auto;
+				width: 80%;
+				min-width: 850px;
+				background-color: #ccd0d5;
+				color: #000066;}
+
+h1{color:  #3d7342;
+  text-align: center;
+}
+
+h3{
+	color: #000000;
+}
+
+#selectorform{text-align: center;}
+
+select{margin : 0 auto;
+  text-align: center;
+}
+
+#dest, #dept{width: 10%;
+}
+
+#deptext, #desttext{
+	color: #000000;
+}
+
+#login{
+	size: 2%;
+	float: right;
+	on
+}
+
+a:hover{
+	color: red;
+}
