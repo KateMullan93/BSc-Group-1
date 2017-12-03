@@ -1,6 +1,5 @@
 package systemflight;
 
-
 import org.bson.types.ObjectId;
 
 import systemflight.Person;
