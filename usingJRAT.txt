@@ -1,0 +1,4 @@
+If you're program runs in Java 5 or above, then this step is extremely easy.
+You simply need to add a single argument to the java command that launches your program.
+
+java -javaagent:shiftone-jrat.jar [your java ops] [main class]
