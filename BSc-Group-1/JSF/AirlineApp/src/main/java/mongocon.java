@@ -31,6 +31,8 @@ public class mongocon {
 			/**** Get collection / table from 'testdb' ****/
 			// if collection doesn't exists, MongoDB will create it for you
 			DBCollection table = db.getCollection("customer");
+			DBCollection table1 = db.getCollection("price");
+			DBCollection table2 = db.getCollection("priceconvert");
 
 			/**** Insert ****/
 			// create a document to store key and value
@@ -39,6 +41,17 @@ public class mongocon {
 			document.put("age", 23);
 			document.put("createdDate", new Date());
 			table.insert(document);
+			
+			BasicDBObject document2 = new BasicDBObject();
+			document2.put("flightid", "F001");
+			document2.put("price", 300);
+			table1.insert(document2);
+			
+			BasicDBObject document3 = new BasicDBObject();
+			document2.put("euro", 0.88);
+			document2.put("gbp", 1.14);
+			table2.insert(document3);
+			
 
 			/**** Find and display ****/
 			BasicDBObject searchQuery = new BasicDBObject();
