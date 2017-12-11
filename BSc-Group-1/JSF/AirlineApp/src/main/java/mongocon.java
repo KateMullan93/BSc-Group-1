@@ -21,21 +21,21 @@ public class mongocon {
 		    try {
 
 			/**** Connect to MongoDB ****/
-			// Since 2.10.0, uses MongoClient
+		
 			MongoClient mongo = new MongoClient("localhost", 27017);
 
 			/**** Get database ****/
-			// if database doesn't exists, MongoDB will create it for you
+			
 			DB db = mongo.getDB("flightbookingsystem");
 
-			/**** Get collection / table from 'testdb' ****/
-			// if collection doesn't exists, MongoDB will create it for you
+			/**** Get collection ****/
+			
 			DBCollection table = db.getCollection("customer");
 			DBCollection table1 = db.getCollection("price");
 			DBCollection table2 = db.getCollection("priceconvert");
 
 			/**** Insert ****/
-			// create a document to store key and value
+		
 			BasicDBObject document = new BasicDBObject();
 			document.put("name", "kate");
 			document.put("age", 23);
@@ -64,7 +64,7 @@ public class mongocon {
 			}
 
 			/**** Update ****/
-			// search document where name="mkyong" and update it with new values
+			
 			BasicDBObject query = new BasicDBObject();
 			query.put("name", "kate");
 
