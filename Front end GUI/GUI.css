@@ -1,92 +1,159 @@
-#container{margin: 0 auto;
-				width: 80%;
-				min-width: 850px;
-				background-color: #d1d1d1;
-				color: #000066;}
+#container {
+  margin: 0 auto;
+  height: 100%;
+  width: 80%;
+  min-width: 850px;
+  background-color: #d1d1d1;
+  color: #000066;
+}
 
 body {
-	background-color: #373432;}
-
-form{
-	width: 100%;
+  background-color: #373432;
+  height: 100%;
 }
 
-h1, h2, h3 { font-family: Arial, Sans-serif;}
-
-h1{
-	color: #373432;
+form {
+  width: 100%;
 }
 
-h2{
-	color: #373432;
+h1, h2, h3 {
+  font-family: Arial, Sans-serif;
 }
 
-#header{background: url(capture.png);
-		background-repeat: no-repeat;
-		height: 130px;}
-
-#details{text-align: center;
-font-family: Arial, Sans-serif;
+h1 {
+  color: #373432;
 }
 
-select{margin : 0 auto;
+h2 {
+  color: #373432;
+}
+
+#header {
+  background: url(capture.png);
+  background-repeat: no-repeat;
+  height: 130px;
+}
+
+
+#details {
+  text-align: center;
+  font-family: Arial, Sans-serif;
+}
+
+select {
+  margin: 0 auto;
   text-align: center;
 }
 
-#dest, #dept{width: 10%;
+#dest, #dept {
+  width: 10%;
 }
 
-#desttext, #depttext{
+#desttext, #depttext {}
 
-}
-#text{ text-align: left;
-padding:20px 25px 0px 20px;
-font-family: Arial, Sans-serif;}
-
-#nav{width: 100%;
-	background: #373432;
-text-align: center;}
-
-#nav a {text-decoration: none;
-		color: #ffffff;
-		font-weight: bold;}
-
-#nav a:link{ background: #373432;}
-
-#nav a:visited{color: #ffffff;}
-
-#nav a:hover {background: #373432;
-			color: #a2a2a2;}
-
-#deptext, #desttext{
-	color: #000000;
+#text {
+  text-align: left;
+  padding: 20px 25px 0px 20px;
+  font-family: Arial, Sans-serif;
 }
 
-#freq{
-	text-align: center;
-	font-family: Arial, Sans-serif;
-	color: #000000 ;
+#nav {
+  width: 100%;
+  background: #373432;
+  text-align: center;
 }
 
+#nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
 
+#nav a:link {
+  background: #373432;
+}
 
+#nav a:visited {
+  color: #ffffff;
+}
 
-label, p{
+#nav a:hover {
+  background: #373432;
+  color: #a2a2a2;
+}
+
+#deptext, #desttext {
+  color: #000000;
+}
+
+#freq {
+  text-align: center;
+  font-family: Arial, Sans-serif;
+  color: #000000;
+}
+
+label, p {
   display: inline-block;
   width: 140px;
   text-align: right;
-	color: #000000 ;
-	font-family: Arial, Sans-serif;
-}​
+  color: #000000;
+  font-family: Arial, Sans-serif;
+}
 
-#foot{
-	background: #373432;
-		text-align: right;
-		padding-right: 20px;
-		padding-bottom: 10px;
-		font-size: 14px;
-		color: #373432;}
 
-#border{ width: 100%;
-		height: 5px;
-		background: #373432;}
+#border {
+  width: 100%;
+  height: 5px;
+  background: #373432;
+}
+#footer{
+  background: #373432;
+  text-align: center;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: #373432;
+}
+
+/*///////////////////////////////////*/
+
+/*DISPLAYCOST CSS*/
+
+/*///////////////////////////////////*/
+.FlightDetails{
+  /*height: 100%;*/
+	padding-left: 10%;
+  margin-left: 10%;
+	padding-top: 1%;
+}
+
+.dispPrice{
+  padding-left: 5%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+.flightDetailsContainer{
+  background-color: #bcbcbc;
+  margin-right: 20%;
+}
+
+.ConversationContainer{
+  background-color: #bcbcbc;
+  /*padding-left: 10%;*/
+  margin-right: 16%;
+	margin-left: 20%;
+
+}
+
+.dispConvert{
+  padding-left: 5%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+.cur{
+  width: 11%;
+  height: 4%;
+
+}

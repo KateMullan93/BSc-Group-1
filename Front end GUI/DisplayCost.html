@@ -1,0 +1,66 @@
+<html>
+<head>
+  <link rel="stylesheet" href="GUI.css">
+
+</head>
+<body>
+  <div id="container">
+
+    <div id="header">
+
+        <div id="text">
+
+          <h1>Black Eye T Airlines</h1>
+
+        </div>
+      </div>
+      <div id="nav">
+
+        <a href="Create Customer.html">Home</a> &nbsp;
+        <a href="about.html">About</a> &nbsp;
+        <a href="login.html">Login</a> &nbsp;
+
+      </div>
+
+      <div class = "FlightDetails">
+        <h1>Your Flight Details</h1>
+        <div class="flightDetailsContainer">
+        <h2>You are flying from <span class="from"></span> to <span class="to"></span></h2>
+        <h2 class="dispPrice">
+          €<span class="price"></span> one way
+        </h2>
+      </div>
+      </div>
+
+
+        <div class="ConversationContainer">
+          <h2>Different Currency?</h2>
+          <h2 class="dispConvert">
+            Convert from: €<span class="price"></span> to
+            <select class ="cur">
+            <option value="GBP">GBP(£)</option>
+            <option value="USD">USD($)</option>
+            <option value="UAE">UAE(AED)</option>
+            </option>
+            </select>
+            =
+            <span class="convert"></span>
+          </h2>
+        </div>
+
+</div>
+<div id="border">
+  &nbsp;
+</div>
+<div id="footer">
+  Copyright &copy; Black Eyed T Airlines, 2017
+</div>
+
+
+
+
+
+
+</body>
+<script src="GUI.js"></script>
+</html>
