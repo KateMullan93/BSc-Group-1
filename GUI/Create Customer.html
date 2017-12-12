@@ -1,0 +1,118 @@
+<html>
+
+
+<head>
+
+  <link rel="stylesheet" href="GUI.css">
+
+</head>
+
+<body>
+  <div id="container">
+
+    <div id="header">
+      <div id="header">
+
+        <div id="text">
+
+          <h1>Black Eye T Airlines</h1>
+
+        </div>
+      </div>
+
+
+
+      <div id="nav">
+
+        <a href="Home.html">Home</a> &nbsp;
+        <a href="about.html">About</a> &nbsp;
+        <a href="login.html">Login</a> &nbsp;
+
+      </div>
+    </div>
+
+
+
+
+    <form id="details">
+      <br>
+      <h2>Please enter details: </h2>
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your first name" required>
+      <br><br>
+
+      <label for="sname">Second Name</label>
+      <input type="text" id="sname" name="secondname" placeholder="Your second name" required>
+      <br><br>
+
+      <label for="email">Emal </label>
+      <input type="email" id="email" name="email" placeholder="Your email" required>
+      <br><br>
+
+
+      <h2>Please select class: </h2>
+      <label for="eco">Economy</label>
+      <input type="radio" name="eco" value="eco">
+
+
+
+      <label for="first">First</label>
+      <input type="radio" name="first" value="first"><br><br>
+
+      <h2>Please select flight:</h2>
+      <div id="deptext"> Departure</div>
+      <select id="dept">
+
+      <option value ="Dublin">Dublin</option>
+      <option value ="Shannon">Shannon</option>
+      </select><br>
+
+
+      <br>
+      <div id="desttext"> Destination</div>
+      <select id="dest">
+      <option value ="Dubai">Dubai</option>
+      <option value ="SanFran">San Francisco</option>
+      <option value ="NYC">New York City</option>
+      <option value ="London">London</option>
+      <option value ="Amst">Amsterdam</option>
+
+      </select>
+      <br><br>
+
+      <div id="freq">
+
+        How many flights ouside Europe have you had this year?
+      </div>
+      <select id="number">
+      <option value="no">0-4</option>
+      <option value="yes">5+</option>
+
+
+      </option>
+      </select>
+
+      <br><br>
+
+      <form action="DisplayCost.html">
+        <input type="submit" value="Display Cost"  />
+      </form>
+
+      <!-- <button id="submit" type="submit">Submit</button> -->
+</div>
+    <div id="border">
+
+      &nbsp;
+
+    </div>
+
+    <div id="footer">
+      Copyright &copy; Black Eyed T Arilines, 2017
+    </div>
+
+
+<script src="GUI.js"></script>
+</body>
+
+</html>
