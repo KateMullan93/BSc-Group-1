@@ -33,7 +33,7 @@
 
 
 
-    <form id="details">
+    <form id="details" name="details" method="post" action="submitServlet">
       <br>
       <h2>Please enter details: </h2>
 
@@ -51,13 +51,10 @@
 
 
       <h2>Please select class: </h2>
-      <label for="eco">Economy</label>
-      <input type="radio" name="eco" value="eco">
-
-
-
-      <label for="first">First</label>
-      <input type="radio" name="first" value="first"><br><br>
+     
+      <input type="radio" name="class" value="eco"/> Economy
+     
+      <input type="radio" name="class" value="first"/>First<br><br>
 
       <h2>Please select flight:</h2>
       <div id="deptext"> Departure</div>
@@ -84,7 +81,7 @@
 
         How many flights ouside Europe have you had this year?
       </div>
-      <select id="number">
+      <select id="freq">
       <option value="no">0-4</option>
       <option value="yes">5+</option>
 
