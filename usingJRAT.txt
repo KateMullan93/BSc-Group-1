@@ -2,3 +2,25 @@ If you're program runs in Java 5 or above, then this step is extremely easy.
 You simply need to add a single argument to the java command that launches your program.
 
 java -javaagent:shiftone-jrat.jar [your java ops] [main class]
+
+1. Donwload jrat from:http://jrat.sourceforge.net/
+Extract the download file into c:\jRat
+2. Open the project which you want to profile use jRat in Eclipse
+in this case, I am using OysterDb1.5 as example.
+
+
+3. From the drop doqn list Run>Run Configurations.....
+In the field of VM arguments input the following:
+-javaagent:"C:/jRat/shiftone-jrat-1-beta1/shiftone-jrat.jar"
+click APPLY
+
+
+
+4.Run your project as usual. when you run the program, you will see a whole bunch of output from the console regarding jRat, that means you run jRat successfully.
+
+5. After finish running your project, go to the project folder: In this case should be OystrDB1.5 and you will se folder named "jrat.output". This is the folder contains the jRat outputs.
+6. Run java -jar shiftone-jrat.jar from command Promt.
+
+
+
+You will open a window "Jrat Desktop". select file>Open and then point to the "jrat.output". Open the output file and see the statistics results.
