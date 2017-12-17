@@ -17,16 +17,21 @@ window.onload = function(){
     flyFrom.innerHTML = flyDest.value;
   }
 }
-  //applies conversation based on currency
-  function conversation(){
-    var price = flyTO.innerHTML.value;
+  //converts based on currency
+  function convert(){
+    var priceDisp = price.innerHTML.value;
+    var selection = document.getElementsByClassName('cur').value;
     var fill = document.getElementsByClassName('convert');
-    fill.innerHTML = price.value;
+    if (selection.value == "GBP"){
+      fill.innerHTML = priceDisp.value * 10;
+    }
+    if (selection.value == "USD"){
+      fill.innerHTML = priceDisp.value * 12;
+
   }
+  if (selection.value == "UAE"){
+    fill.innerHTML = priceDisp.value * 14;
+}
 
-
-
-
-
-
+}
 }
